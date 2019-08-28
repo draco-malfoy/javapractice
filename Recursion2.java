@@ -8,8 +8,9 @@ class RecTest {
 	void printArray(int i) {
 		if (i==0)
 			return;
-		else{
-			printArray(i-1);		System.out.println("[" + (i-1) + "]" + values[i-1]);
+		else{			System.out.println("[" + (i-1) + "]" + values[i-1]);
+
+			printArray(i-1);
 
 		}
 
