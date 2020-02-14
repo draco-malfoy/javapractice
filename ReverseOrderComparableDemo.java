@@ -1,18 +1,18 @@
 import java.util.Arrays;
 import java.util.Collections;
 
-public class User implements Comparable<User>  {
+class User implements Comparable<User>  {
         private String name;
         public User(String name) {
                 this.name = name;
         }
         public String getName() {
-		return name;
+        return name;
         }
-	@Override
-	public int compareTo(User o) {
-		return name.compareTo(o.getName());
-	}
+    @Override
+    public int compareTo(User o) {
+        return name.compareTo(o.getName());
+    }
 } 
 
 public class ReverseOrderComparableDemo {
