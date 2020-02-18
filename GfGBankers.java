@@ -4,7 +4,7 @@ public class GfGBankers
 	int n = 5; // Number of processes 
 	int m = 3; // Number of resources 
 	int [][]need = new int[n][m]; 
-	int [][]max; 
+	int [][]max = new int[][]; 
 	int [][]alloc; 
 	int []avail; 
 	int safeSequence[] = new int[n]; 
@@ -20,7 +20,7 @@ public class GfGBankers
 				{ 0, 0, 2 } }; //P4 
 			
 	// MAX Matrix 
-	max = new int[][] { { 7, 5, 3 }, //P0 
+	max =  { { 7, 5, 3 }, //P0 
 			{ 3, 2, 2 }, //P1 
 			{ 9, 0, 2 }, //P2 
 			{ 2, 2, 2 }, //P3 
