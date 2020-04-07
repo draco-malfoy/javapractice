@@ -1,4 +1,4 @@
-class BlockDemo {
+class ForDemo {
 	public static void main (String arg []) {
 		double i;
 		double j;
